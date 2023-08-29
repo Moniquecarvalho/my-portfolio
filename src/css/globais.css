@@ -44,10 +44,6 @@ body.dark nav li a:hover {
   text-decoration: underline;
 }
 
-body.dark img.logo {
-  content: url("/src/imagens/logo-black.png");
-}
-
 body.dark .projeto .informacoes-projeto p{
   color: var(--cor-dark-ligh);
 }

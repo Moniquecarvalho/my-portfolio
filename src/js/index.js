@@ -1,11 +1,17 @@
-const chk = document.getElementById('chk')
+const chk = document.getElementById('chk');
+const logo = document.getElementById('logo');
+
 chk.addEventListener('change', () => {
-  document.body.classList.toggle('dark')
+  document.body.classList.toggle('dark');
+  if (chk.checked) {
+    logo.src = 'src/imagens/logo-black.png';
+  } else {
+    logo.src = 'src/imagens/logo-white.png';
+  }
 });
 
 
 'use strict';
-
 function typeWriter(el, textArray, index) {
   if (index < textArray.length) {
     el.innerHTML += textArray[index];
@@ -18,10 +24,10 @@ function typeWriter(el, textArray, index) {
   }
 }
 
+
 const elementEl = document.getElementById('elementEl');
 const text = elementEl.innerHTML;
 elementEl.innerHTML = ''; 
-
 typeWriter(elementEl, text.split(''), 0); 
 
 
