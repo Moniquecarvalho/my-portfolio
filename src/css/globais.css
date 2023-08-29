@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+
+html {
+  color: var(--cor-branca);
+  font-size: 62.5%;
+  font-weight: 300;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--cor-fundo-escuro);
+  color: var(--cor-dark-ligh);
+  font-family: var(--fonte-primaria);
+  font-size: var(--fonte-normal);
+  transition: background 0.2s ease-in-out;
+}
+
+body.dark {
+  background: var(--cor-dark-ligh);
+  color: var(--cor-fundo-escuro);
+  transition: background 0.2s ease-in-out;
+}
+
+body.dark a {
+  color: var(--cor-fundo-escuro);
+  font-weight: 400;
+}
+
+body.dark p  {
+  color: var(--cor-fundo-escuro);
+}
+
+body.dark h3 {
+  color: var(--cor-dark-ligh);
+}
+
+body.dark nav li a {
+  color: var(--cor-fundo-escuro);
+  transition: text-decoration 0.2s ease-in-out; 
+}
+
+body.dark nav li a:hover {
+  text-decoration: underline;
+}
+
+body.dark img.logo {
+  content: url("/src/imagens/logo-black.png");
+}
+
+body.dark .projeto .informacoes-projeto p{
+  color: var(--cor-dark-ligh);
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+} 
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.alinhar-itens-no-centro {
+  align-items: center;
+}
+
+.redes-sociais a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0 4px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.redes-sociais a:hover {
+  color: var(--cor-primaria);
+  box-shadow: rgb(97, 97, 97) 0px 3px 13px;
+}
+
+.redes-sociais a i {
+  line-height: 40px;
+}
+
+.outer-shadow {
+  box-shadow: 2px 2px #222327, -2px -2px 2px #454545;
+}
+
+.inner-shadow {
+  box-shadow: inset 2px 2px 2px #222327, inset -2px -2px 2px #454545;
+}
+
+.section {
+  padding: 7rem;
+}
+
+.section-title {
+  text-align: center;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 30px;
+}
+
+.section-title h2 {
+  font-size: var(--fonte-gigante);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.botao {
+  font-size: var(--fonte-grande);
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  font-weight: 400;
+  border: 1px solid var(--cor-primaria);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.botao:hover {
+  color: var(--cor-primaria);
+  box-shadow: rgb(97, 97, 97) 0px 3px 13px;
+} 

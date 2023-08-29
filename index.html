@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monique Carvalho | Portfólio</title>
+
+  <link rel="shortcut icon" href="src/imagens/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+
+  <link rel="stylesheet" href="src/css/variaveis.css">
+
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+
+  <!-- Seções -->
+  <link rel="stylesheet" href="src/css/header.css">
+  <link rel="stylesheet" href="src/css/home.css">
+  <link rel="stylesheet" href="src/css/sobre.css">
+  <link rel="stylesheet" href="src/css/habilidades.css">
+  <link rel="stylesheet" href="src/css/projetos.css">
+  <link rel="stylesheet" href="src/css/footer.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <img src="src/imagens/logo-white.png" class="logo" />
+        </a>
+
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+        <div class="dark">
+          <input type="checkbox" class="checkbox" id="chk">
+
+          <label class="label" for="chk">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+          </label>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá 🖖,</p>
+          <h1>Sou a Monique Carvalho</h1>
+          <h2 id="elementEl">Desenvolvedora Frontend</h2>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/moniquecarvalhodev/" class="outer-shadow" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/Moniquecarvalho" class="outer-shadow" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://bit.ly/3YbVKQS" class="outer-shadow" target="_blank">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/Foto perfil.png" alt="foto do perfil" class="outer-shadow">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sobre-mim" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Me chamo Monique Carvalho e sou uma desenvolvedora frontend em
+              formação!</strong>
+          <p>
+            Sou uma Desenvolvedora Web Frontend Júnior dedicada, atenciosa e detalhista, com uma habilidade natural para
+            perceber e analisar padrões, além de uma abordagem criativa e inovadora para resolver problemas. Estou
+            profundamente apaixonada pela área e continuamente motivada a crescer e me aprimorar..
+          </p>
+
+          <p>
+            Minhas competências como Desenvolvedor Web especializado em Frontend abrangem HTML, CSS, JavaScript, React,
+            TypeScript e Git. Utilizo essas habilidades para transformar designs estáticos em interfaces dinâmicas,
+            incorporando também a capacidade de realizar testes automatizados com Jest e Testing Library.
+          </p>
+
+          <p>
+            Desde que minha jornada na tecnologia começou, experimentei uma conexão significativa com a criação de
+            soluções inovadoras por meio da programação. Acredito que minha paixão pela codificação e meu desejo
+            constante de aprendizado podem contribuir de maneira única para qualquer equipe. Ativamente envolvido em
+            projetos desafiadores e comunidades de programação, estou sempre buscando aprimoramento e valorizando as
+            valiosas trocas de experiência e feedback. 😁
+          </p>
+          <div class="botoes">
+            <a target="_blank" href="src/arquivos/cv.pdf" class="botao outter-shadow">Veja meu  CV</a>
+            <a href="#projetos" class="botao outter-shadow">Projetos</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-habilidades row">
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-html5-plain"></i>
+        </div>
+        <h3>HTML5</h3>
+        <p> Construção de páginas web com estrutura sólida, formulários interativos, tags semânticas para melhor organização, elementos multimídia e links. Além disso, aplico tabelas, estilos e depuração de código, assegurando funcionalidade, incluindo páginas responsivas para variados dispositivos."</p>
+      </div>
+
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-css3-plain"></i>
+        </div>
+        <h3>CSS3</h3>
+        <p> Estilização web criativa e eficiente, utilizando seletores, propriedades e valores para customizar cores, fontes e layouts, incluindo designs responsivos com media queries, flexbox e grid. Resolvo desafios de compatibilidade, otimizo o desempenho e asseguro excelência e usabilidade nas páginas resultantes.</p>
+      </div>
+
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-javascript-plain"></i>
+        </div>
+        <h3>JavaScript</h3>
+        <p> Capacitado para criar interações dinâmicas, manipular o DOM e realizar requisições assíncronas. Familiarizado com bibliotecas populares como jQuery e frameworks como React, demonstrando habilidade na construção de interfaces interativas e enriquecedoras para aplicações web. </p>
+      </div>
+
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-git-plain"></i>
+        </div>
+        <h3>GitHub</h3>
+        <p> Possuo habilidades sólidas em Git, dominando comandos essenciais. Sou capaz de criar, gerenciar branches e colaborar eficazmente em projetos de desenvolvimento, garantindo um fluxo de trabalho preciso e colaborativo.</p>
+      </div>
+
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-github-original"></i>
+        </div>
+        <h3>GitHub</h3>
+        <p> Proficiência em gerenciar repositórios, commits e branches, colaborando em projetos de código aberto. Organizo com issues e projetos, automatizo com GitHub Actions e mantenho padrões sólidos de versionamento, revelando experiência em desenvolvimento colaborativo e controle de versões.</p>
+      </div>
+
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-wordpress-plain"></i>
+        </div>
+        <h3>WordPress</h3>
+        <p> Sites dinâmicos e atrativos, personalizando temas, plugins e garantindo usabilidade intuitiva. Realizo a manutenção completa do site, além de possuir domínio em gestão de conteúdo, SEO e resolução de problemas, resultando em experiências web impactantes e funcionais.</p>
+      </div>
+  </section>
+
+  <section class="projetos" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus Projetos</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-projetos container">
+      <div class="projeto">
+        <a href="#" target="_blank">
+          <img src="https://via.placeholder.com/515x700" alt="Nome do projeto 1">
+          <h3>Projeto 1</h3>
+          <div class="informacoes-projeto">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam commodi sapiente expedita quos
+              dolores laborum delectus doloribus repellat, sit harum consequuntur, eius totam hic, libero numquam sed
+              quidem animi corrupti?</p>
+            <p>🔗 Ver no GitHub Pages</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="projeto">
+        <a href="#" target="_blank">
+          <img src="https://via.placeholder.com/515x700" alt="Nome do projeto 2">
+          <h3>Projeto 2</h3>
+          <div class="informacoes-projeto">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam commodi sapiente expedita quos
+              dolores laborum delectus doloribus repellat, sit harum consequuntur, eius totam hic, libero numquam sed
+              quidem animi corrupti?</p>
+            <p>🔗 Ver no GitHub Pages</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="projeto">
+        <a href="#" target="_blank">
+          <img src="https://via.placeholder.com/515x700" alt="Nome do projeto 3">
+          <h3>Projeto 3</h3>
+          <div class="informacoes-projeto">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam commodi sapiente expedita quos
+              dolores laborum delectus doloribus repellat, sit harum consequuntur, eius totam hic, libero numquam sed
+              quidem animi corrupti?</p>
+            <p>🔗 Ver no GitHub Pages</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="projeto">
+        <a href="#" target="_blank">
+          <img src="https://via.placeholder.com/515x700" alt="Nome do projeto 4">
+          <h3>Projeto 4</h3>
+          <div class="informacoes-projeto">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam commodi sapiente expedita quos
+              dolores laborum delectus doloribus repellat, sit harum consequuntur, eius totam hic, libero numquam sed
+              quidem animi corrupti?</p>
+            <p>🔗 Ver no GitHub Pages</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/moniquecarvalhodev/" class="outer-shadow" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/Moniquecarvalho" class="outer-shadow" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://bit.ly/3YbVKQS" class="outer-shadow" target="_blank">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+      <div id="scrollToTop" class="scroll-to-top">
+        <a href="#top">↑</a>
+      </div>
+      <div class="copywriting">
+        <p> Feito com ❤️ para você<br>
+          © 2023 Monique Carvalho.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="src/js/index.js"></script>
+</body>
+
+</html>

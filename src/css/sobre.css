@@ -1,0 +1,49 @@
+#elementEl::after {
+  content: '|';
+  margin-left: 5px;
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.sobre-mim .informacoes-sobre-mim {
+  padding: 0 25px;
+}
+
+.sobre-mim .informacoes-sobre-mim .botoes {
+  margin: 90px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+.sobre-mim .informacoes-sobre-mim p {
+  font-size: 1.8rem;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+@media(max-width: 980px) {
+  .sobre-mim .row {
+    justify-content: center;
+  }
+
+  .sobre-mim .informacoes-sobre-mim {
+    padding: 0 var(--mobile-padding);
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .sobre-mim .informacoes-sobre-mim .botoes {
+    gap: 60px;
+  }
+}
