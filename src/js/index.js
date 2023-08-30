@@ -4,9 +4,9 @@ const logo = document.getElementById('logo');
 chk.addEventListener('change', () => {
   document.body.classList.toggle('dark');
   if (chk.checked) {
-    logo.src = 'src/imagens/logo-white.png';
-  } else {
     logo.src = 'src/imagens/logo-black.png';
+  } else {
+    logo.src = 'src/imagens/logo-white.png';
   }
 });
 
