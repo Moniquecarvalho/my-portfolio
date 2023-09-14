@@ -1,10 +1,13 @@
 :root {
-  --cor-primaria: #03FA6E;
+  --cor-primaria: #03fa6e;
   --cor-branca: #fff;
   --cor-dark-ligh:#edf2fc;
   --cor-fundo-escuro: #070506;
   --cor-fundo-cinza-escuro: #0f0e0e;
   --cor-fundo-cinza-claro: #e1e1e1;
+  --card-background: transparent;
+  --button-background-border: linear-gradient(90deg, #45ed8e 0%, #005b39 100%);
+    --button-background-hover: rgba(3, 250, 110 .1);
 }
 
 :root {

@@ -20,7 +20,7 @@ function typeWriter(el, textArray, index) {
     setTimeout(() => {
       el.innerHTML = ''; 
       typeWriter(el, textArray, 0); 
-    }, 5000); 
+    }, 1000); 
   }
 }
 

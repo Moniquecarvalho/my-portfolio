@@ -103,7 +103,7 @@
 }
 
 .label {
-  background-color: #151410;
+  background-color: var(--cor-dark-ligh);
   border-radius: 50px;
   cursor: pointer;
 
@@ -128,7 +128,7 @@
 }
 
 .label .ball {
-  background-color: var(--cor-dark-ligh);
+  background-color: var(--cor-primaria);
   border-radius: 50%;
   position: absolute;
   top: 2px;
@@ -171,8 +171,8 @@
   .header nav ul {
     display: none;
     background-color: var(--cor-fundo-cinza-escuro);
-    padding: 56px;
-    border-radius: 15px;
+    width: 85vw;
+
   }
 
   .header nav li a {

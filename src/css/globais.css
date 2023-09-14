@@ -44,9 +44,22 @@ body.dark nav li a:hover {
   text-decoration: underline;
 }
 
-body.dark .projeto .informacoes-projeto p{
-  color: var(--cor-dark-ligh);
+body.dark .container-projetos .cards{
+  background-color: var( --cor-fundo-cinza-escuro);
 }
+
+body.dark .card-text p{
+  color: var( --cor-dark-ligh);
+}
+
+body.dark button:hover {
+  color: var( --cor-dark-ligh);
+}
+
+body.dark .label {
+  background-color: var(--cor-fundo-cinza-escuro);
+}
+
 
 .container {
   max-width: 1140px;
