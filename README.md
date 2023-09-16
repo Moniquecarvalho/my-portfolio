@@ -4,10 +4,12 @@
 
   <p align="center">
    O meu portfolio marca um passo importante no desenvolvimento das minhas habilidades. Nele, utilizei JavaScript para criar um modo dark e adicionei uma seta que facilita o retorno ao topo da página. Embora reconheça que há muito mais por aprender, estou satisfeito com o progresso até aqui. O plano é expandir o portfolio, explorar novos designs, aprimorar a interatividade e continuar a minha jornada de crescimento como desenvolvedora. Estou ansioso para compartilhar futuras atualizações e demonstrar a minha evolução constante.
-</div>
 
 <br />
-<br />
+    <a href="https://moniquecarvalho.github.io/my-portfolio/"><strong>Visualizar o projeto »</strong></a>
+    <br />
+    <br />
+</div>
 
 ## 📂 Estrutura do Projeto
 
