@@ -171,14 +171,13 @@
   .header nav ul {
     display: none;
     background-color: var(--cor-fundo-cinza-escuro);
-    width: 85vw;
-
+    width: 90vw;
   }
 
   .header nav li a {
     color: var(--cor-branca);
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     display: block;
   }
 
