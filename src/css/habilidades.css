@@ -6,10 +6,12 @@
 .habilidades .container-habilidades .habilidade{
   max-width: 350px;
   padding: 50px 40px;
+  transition: .5s;
 }
 
 .habilidades .container-habilidades .habilidade:hover i{
  color: var(--cor-primaria);
+ transform: scale3d(1.1, 1.1, 1);
  
 }
 
