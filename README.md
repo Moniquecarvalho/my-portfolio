@@ -17,6 +17,7 @@
 - `src/arquivo/`: Onde encontra o meu currículo. 
 - `src/css/`: A pasta que contém os arquivos CSS para estilizar a página.
 - `src/images/`: A pasta que contém imagens usadas na página.
+- `src/images/imgs-projects`: A pasta que contém imagens somente dos projetos efetuados.
 - `src/js/`: Onde contém o arquivo JavaScript.
 - `src/webfonts/`: A pasta que contém arquivos de fonte utilizados no projeto.
 <br />
